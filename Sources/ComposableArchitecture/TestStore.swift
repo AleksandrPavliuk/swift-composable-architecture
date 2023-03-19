@@ -2,7 +2,6 @@
 import Combine
 import CustomDump
 import Foundation
-import XCTestDynamicOverlay
 
 /// A testable runtime for a reducer.
 ///

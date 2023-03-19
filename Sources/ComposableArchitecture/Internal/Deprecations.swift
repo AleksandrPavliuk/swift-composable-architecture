@@ -1,7 +1,6 @@
 import CasePaths
 import Combine
 import SwiftUI
-import XCTestDynamicOverlay
 
 // MARK: - Deprecated after 0.49.2
 

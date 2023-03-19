@@ -1,7 +1,6 @@
 import Combine
 import Foundation
 import SwiftUI
-import XCTestDynamicOverlay
 
 /// This type is deprecated in favor of ``EffectTask``. See its documentation for more information.
 @available(
