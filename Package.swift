@@ -18,7 +18,6 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-    .package(url: "https://github.com/google/swift-benchmark", from: "0.1.0"),
     .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "0.8.0"),
     .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "0.14.0"),
     .package(url: "https://github.com/apple/swift-collections", from: "1.0.2"),
@@ -42,14 +41,6 @@ let package = Package(
         .product(name: "XCTestDynamicOverlay", package: "xctest-dynamic-overlay"),
       ]
     ),
-    .executableTarget(
-      name: "swift-composable-architecture-benchmark",
-      dependencies: [
-        "ComposableArchitecture",
-        .product(name: "Benchmark", package: "swift-benchmark"),
-      ]
-    ),
-    .systemLibrary(name: "_CAsyncSupport"),
   ]
 )
 
