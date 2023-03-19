@@ -17,7 +17,6 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "0.8.0"),
     .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "0.14.0"),
     .package(url: "https://github.com/apple/swift-collections", from: "1.0.2"),
     .package(url: "https://github.com/pointfreeco/swift-custom-dump", from: "0.9.1"),
@@ -30,7 +29,6 @@ let package = Package(
       name: "ComposableArchitecture",
       dependencies: [
         .product(name: "CasePaths", package: "swift-case-paths"),
-        .product(name: "CombineSchedulers", package: "combine-schedulers"),
         .product(name: "CustomDump", package: "swift-custom-dump"),
         .product(name: "Dependencies", package: "swift-dependencies"),
         .product(name: "IdentifiedCollections", package: "swift-identified-collections"),
